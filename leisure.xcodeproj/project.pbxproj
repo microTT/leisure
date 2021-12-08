@@ -14,6 +14,7 @@
 		8F8943D62760C89E00AE3FB2 /* leisureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8943D52760C89E00AE3FB2 /* leisureTests.swift */; };
 		8F8943E02760C89F00AE3FB2 /* leisureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8943DF2760C89F00AE3FB2 /* leisureUITests.swift */; };
 		8F8943E22760C89F00AE3FB2 /* leisureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8943E12760C89F00AE3FB2 /* leisureUITestsLaunchTests.swift */; };
+		8F8943EF2760CAED00AE3FB2 /* HomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8943EE2760CAED00AE3FB2 /* HomeWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		8F8943DB2760C89F00AE3FB2 /* leisureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leisureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8943DF2760C89F00AE3FB2 /* leisureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leisureUITests.swift; sourceTree = "<group>"; };
 		8F8943E12760C89F00AE3FB2 /* leisureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leisureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F8943EE2760CAED00AE3FB2 /* HomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWebView.swift; sourceTree = "<group>"; };
+		8F8943F02760D2A700AE3FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 		8F8943C32760C89B00AE3FB2 /* leisure */ = {
 			isa = PBXGroup;
 			children = (
+				8F8943F02760D2A700AE3FB2 /* Info.plist */,
 				8F8943C42760C89B00AE3FB2 /* leisureApp.swift */,
 				8F8943C62760C89B00AE3FB2 /* ContentView.swift */,
+				8F8943EE2760CAED00AE3FB2 /* HomeWebView.swift */,
 				8F8943C82760C89E00AE3FB2 /* Assets.xcassets */,
 				8F8943CA2760C89E00AE3FB2 /* Preview Content */,
 			);
@@ -259,6 +264,7 @@
 			files = (
 				8F8943C72760C89B00AE3FB2 /* ContentView.swift in Sources */,
 				8F8943C52760C89B00AE3FB2 /* leisureApp.swift in Sources */,
+				8F8943EF2760CAED00AE3FB2 /* HomeWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +428,7 @@
 				DEVELOPMENT_TEAM = 3B722735E5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leisure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +458,7 @@
 				DEVELOPMENT_TEAM = 3B722735E5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leisure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
